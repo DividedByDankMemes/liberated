@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Liberated",
+        "description": "Creates unique player profiles designed for use in shared singleplayer 'chainworlds'",
+        "icon": {
+            "item": "minecraft:chain"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:rutherford",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

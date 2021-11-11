@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		"chain:load",
+		"custom_damage:load"
+	]
+}
