@@ -18,18 +18,18 @@ This datapack relies on [phi.core](https://github.com/MinecraftPhi/MinecraftPhi-
 MAKE SURE TO HAVE THESE IN YOUR DATAPACK FOLDER OR ENDERCHESTS AND INVENTORY WILL NOT WORK
 
 # features
-Health
+- Health
 
-Inventory
+- Inventory
 
-Log-out Spot
+- Log-out Spot
 
-Experience
+- Experience
 
-Spawnpoints
+- Spawnpoints
 
-Enderchests
+- Enderchests
 
 # todo
 
-hunger
+- hunger
