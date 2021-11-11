@@ -1,4 +1,4 @@
-# liberated
+# Liberated
 A minecraft datapack for shared singleplayer 'chainworlds'.
 
 The datapack creates unique player profiles, so although player data is technically shared across the world, you are 'liberated' from this issue. 
@@ -11,13 +11,13 @@ You will be frozen and in spectator. From then, you will log out. Either log bac
 
 Uninstall with `/trigger chain.uninstall set 1`
 
-## dependencies
+## Dependencies
 
 This datapack relies on [phi.core](https://github.com/MinecraftPhi/MinecraftPhi-modules/tree/master/phi.core/src) and the [phi.modifyinv](https://github.com/MinecraftPhi/MinecraftPhi-modules/tree/master/phi.modifyinv/src) module
 
 MAKE SURE TO HAVE THESE IN YOUR DATAPACK FOLDER OR ENDERCHESTS AND INVENTORY WILL NOT WORK
 
-## features
+## Features
 - Health
 
 - Inventory
@@ -30,6 +30,6 @@ MAKE SURE TO HAVE THESE IN YOUR DATAPACK FOLDER OR ENDERCHESTS AND INVENTORY WIL
 
 - Enderchests
 
-## todo
+## Todo
 
 - hunger
