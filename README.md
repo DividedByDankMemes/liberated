@@ -13,7 +13,7 @@ Uninstall with `/trigger chain.uninstall set 1`
 
 # dependencies
 
-This datapack relies on [phi.core and the phi.modifyinv module](https://github.com/MinecraftPhi/MinecraftPhi-modules)
+This datapack relies on [phi.core](https://github.com/MinecraftPhi/MinecraftPhi-modules/tree/master/phi.core/src/datapack) and the [phi.modifyinv](https://github.com/MinecraftPhi/MinecraftPhi-modules/tree/master/phi.modifyinv/src/datapack) module
 
 MAKE SURE TO HAVE THESE IN YOUR DATAPACK FOLDER OR ENDERCHESTS AND INVENTORY WILL NOT WORK
 
