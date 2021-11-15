@@ -1,0 +1,7 @@
+{
+  "values": [
+    "#rx.playerdb:load",
+    "chain:load",
+    "custom_damage:load"
+  ]
+}

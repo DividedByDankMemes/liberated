@@ -1,7 +1,5 @@
 {
-	"replace": false,
-	"values": [
-		"chain:load",
-		"custom_damage:load"
-	]
+  "values": [
+    "#load:_private/load"
+  ]
 }
