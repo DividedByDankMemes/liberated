@@ -13,7 +13,7 @@ data modify storage rx.playerdb:main players[-1].bits set from storage rx.player
 data modify storage rx.playerdb:temp UUID set from storage rx.playerdb:main players[-1].info.UUID
 function rx.playerdb:impl/v2.0.0/uuid/select
 data modify storage rx.playerdb:main uuid[{selected: 1b}].entries[-1].has_entry set value 1b
-scoreboard players set @s rx.playerdb.hnt 1
+scoreboard players set @s rx.pdb.has_entry 1
 data modify storage rx.playerdb:io player set from storage rx.playerdb:main players[{selected: 1b}]
 scoreboard players set $disable.api rx.temp 1
 function #rx.playerdb:api/v2/on_entry_add

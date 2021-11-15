@@ -8,17 +8,17 @@ data modify storage rx:info playerdb.version set value {major: 2, minor: 0, patc
 data modify storage rx:info playerdb.pretty_version set value '[{"storage": "rx:info", "nbt": "playerdb.version.major"}, ".", {"storage": "rx:info", "nbt": "playerdb.version.minor"}, ".", {"storage": "rx:info", "nbt": "playerdb.version.patch"}]'
 scoreboard objectives add rx.uid dummy
 scoreboard objectives add rx.int dummy
-scoreboard objectives add rx.playerdb.io dummy
-scoreboard objectives add rx.playerdb.lstp dummy
-scoreboard objectives add rx.playerdb.hnt dummy
-scoreboard objectives add rx.playerdb.list trigger
-scoreboard objectives add rx.playerdb.cntr dummy
+scoreboard objectives add rx.pdb.io dummy
+scoreboard objectives add rx.pdb.list_page dummy
+scoreboard objectives add rx.pdb.has_entry dummy
+scoreboard objectives add rx.pdb.list trigger
+scoreboard objectives add rx.pdb.counter dummy
 scoreboard objectives add rx.uuid0 dummy
 scoreboard objectives add rx.uuid1 dummy
 scoreboard objectives add rx.uuid2 dummy
 scoreboard objectives add rx.uuid3 dummy
 execute unless score $uid.next rx.uid matches -2147483648.. run scoreboard players set $uid.next rx.uid 1
-scoreboard players set $global rx.playerdb.cntr 0
+scoreboard players set $global rx.pdb.counter 0
 scoreboard players set $2 rx.int 2
 scoreboard players set $3 rx.int 3
 scoreboard players set $16 rx.int 16

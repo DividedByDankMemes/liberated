@@ -8,6 +8,6 @@ execute if score $selected rx.temp matches 0 store result storage rx.playerdb:ma
 function rx.playerdb:impl/v2.0.0/utils/get_name
 data modify storage rx.playerdb:main uuid[{selected: 1b}].entries append value {}
 execute store result storage rx.playerdb:main uuid[{selected: 1b}].entries[-1].uid int 1 run scoreboard players get @s rx.uid
-execute store result storage rx.playerdb:main uuid[{selected: 1b}].entries[-1].has_entry byte 1 run scoreboard players get @s rx.playerdb.hnt
+execute store result storage rx.playerdb:main uuid[{selected: 1b}].entries[-1].has_entry byte 1 run scoreboard players get @s rx.pdb.has_entry
 data modify storage rx.playerdb:main uuid[{selected: 1b}].entries[-1].name set from storage rx.playerdb:temp player_name
 data modify storage rx.playerdb:main uuid[{selected: 1b}].entries[-1].UUID set from storage rx.playerdb:temp UUID

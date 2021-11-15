@@ -3,7 +3,7 @@
 scoreboard players set $chain.xp_loaded chain.temp 0
 
 #get data
-scoreboard players operation $in.uid rx.playerdb.io = @s rx.uid
+scoreboard players operation $in.uid rx.pdb.io = @s rx.uid
 function rx.playerdb:api/get
 
 #set scores

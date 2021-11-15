@@ -7,7 +7,7 @@ data modify storage phi.modifyinv:temp armor set value []
 data modify storage phi.modifyinv:temp offhand set value []
 
 # Copy whole inventory data:
-scoreboard players operation $in.uid rx.playerdb.io = @s rx.uid
+scoreboard players operation $in.uid rx.pdb.io = @s rx.uid
 function rx.playerdb:api/get
 data modify storage phi.modifyinv:temp whole_inventory set from storage rx.playerdb:io player.data.chain.inventory
 

@@ -14,4 +14,4 @@ execute if score $success rx.temp matches 1 run data modify storage rx.playerdb:
 execute if score $success rx.temp matches 1 store result score $copy rx.temp run data modify storage rx.playerdb:temp name_cache set from storage rx.playerdb:main uuid[{selected: 1b}].entries[-1].name
 execute if score $success rx.temp matches 1 if score $copy rx.temp matches 1 run scoreboard players set $success rx.temp 0
 execute if score $success rx.temp matches 0 run function rx.playerdb:impl/v2.0.0/uuid/check/resets
-scoreboard players reset @s rx.playerdb.cntr
+scoreboard players reset @s rx.pdb.counter
