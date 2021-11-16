@@ -1,5 +1,5 @@
 #get data
-scoreboard players operation $in.uid rx.playerdb.io = @s rx.uid
+scoreboard players operation $in.uid rx.pdb.io = @s rx.uid
 function rx.playerdb:api/get
 
 #set scores
