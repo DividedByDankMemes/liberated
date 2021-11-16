@@ -13,4 +13,4 @@ data modify storage rx.playerdb:main uuid set value []
 data remove storage rx.playerdb:io player
 data remove storage rx.playerdb:io player_name
 scoreboard players set @a rx.pdb.counter 0
-tellraw @a[tag=rx.admin] ["", {"nbt": "playerdb.name", "storage": "rx:info"}, {"text": " "}, {"text": "Reset Success: PlayerDB successfully reset", "color": "#1DF368"}]
+tellraw @a[tag=rx.admin] ["", ["", {"storage": "rx:info", "nbt": "playerdb.pretty_name", "interpret": true}], {"text": " "}, {"text": "Reset Success: PlayerDB successfully reset", "color": "#1DF368"}]

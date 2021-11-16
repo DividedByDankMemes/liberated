@@ -31,4 +31,4 @@ forceload add -30000000 1600
 execute unless block -30000000 0 1602 minecraft:yellow_shulker_box run setblock -30000000 0 1602 minecraft:yellow_shulker_box
 execute unless block -30000000 0 1603 minecraft:oak_wall_sign run setblock -30000000 0 1603 minecraft:oak_wall_sign[facing=south]
 fill -30000000 1 1600 -30000000 1 1615 minecraft:bedrock
-tellraw @a[tag=rx.admin] [{"text": "", "color": "gray"}, {"nbt": "playerdb.pretty_name", "storage": "rx:info", "interpret": true}, " ", {"storage": "rx:info", "nbt": "playerdb.pretty_version", "interpret": true}, " loaded"]
+tellraw @a[tag=rx.admin] ["", ["", {"storage": "rx:info", "nbt": "playerdb.pretty_name", "interpret": true}], {"text": " "}, {"storage": "rx:info", "nbt": "playerdb.pretty_version", "interpret": true, "color": "gray"}, {"text": " "}, {"text": "loaded", "color": "gray"}]
