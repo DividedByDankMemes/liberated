@@ -27,6 +27,9 @@ data modify storage rx.playerdb:io player.data.chain.spos.x set from entity @s S
 data modify storage rx.playerdb:io player.data.chain.spos.y set from entity @s SpawnY
 data modify storage rx.playerdb:io player.data.chain.spos.z set from entity @s SpawnZ
 
+#logs the first trigger
+data modify storage rx.playerdb:io player.data.chain.sync set value 1
+
 #saves data
 function rx.playerdb:api/save_self
 

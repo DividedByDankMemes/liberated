@@ -15,6 +15,7 @@ scoreboard players set $chain.neg chain.temp -1
 
 #checking if the player has loaded
 scoreboard players set $chain.loaded chain.temp 0
+scoreboard players set $chain.synced chain.temp 0
 
 #checking if the world has been logged into
 scoreboard players set $chain.logged chain.temp 1
