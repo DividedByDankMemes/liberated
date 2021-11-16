@@ -1,7 +1,6 @@
 #toggle once player is loaded
 scoreboard players set $chain.loaded chain.temp 3
-
-gamemode survival @p
+gamemode survival @s
 kill @e[type=marker,tag=chain.tp]
 
 #le various synchronisations
