@@ -2,9 +2,6 @@
 scoreboard players set $chain.xp_loaded chain.temp 1
 
 #math
-scoreboard players set $chain.xpnum chain.temp 10
-scoreboard players operation $chain.xpl chain.temp *= $chain.xpnum chain.temp
-scoreboard players operation $chain.xpp chain.temp *= $chain.xpnum chain.temp
 scoreboard players set $chain.xpnum chain.temp 405
 scoreboard players set $chain.xpnum2 chain.temp 25
 scoreboard players operation $chain.xpnum chain.temp *= $chain.xpl chain.temp
@@ -14,8 +11,10 @@ scoreboard players operation $chain.xpl chain.temp -= $chain.xpnum chain.temp
 scoreboard players set $chain.xpnum chain.temp 3600
 scoreboard players operation $chain.xpl chain.temp += $chain.xpnum chain.temp
 scoreboard players operation $chain.xpl chain.temp += $chain.xpp chain.temp
-scoreboard players set $chain.xpnum chain.temp 1550
+scoreboard players set $chain.xpnum chain.temp 10
 scoreboard players operation $chain.xpl chain.temp /= $chain.xpnum chain.temp
+scoreboard players operation $chain.xpl chain.temp += $chain.xpp chain.temp
+
 
 
 #reset and addition
