@@ -10,7 +10,6 @@ scoreboard players operation $chain.xpl chain.temp *= $chain.xpnum2 chain.temp
 scoreboard players operation $chain.xpl chain.temp -= $chain.xpnum chain.temp
 scoreboard players set $chain.xpnum chain.temp 3600
 scoreboard players operation $chain.xpl chain.temp += $chain.xpnum chain.temp
-scoreboard players operation $chain.xpl chain.temp += $chain.xpp chain.temp
 scoreboard players set $chain.xpnum chain.temp 10
 scoreboard players operation $chain.xpl chain.temp /= $chain.xpnum chain.temp
 scoreboard players operation $chain.xpl chain.temp += $chain.xpp chain.temp
